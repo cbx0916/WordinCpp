@@ -1,3 +1,4 @@
+# author: cbx0916
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt
@@ -5,6 +6,7 @@ from docx.shared import RGBColor
 from docx.oxml.ns import qn
 from docx.shared import Inches
 import sys
+import os
 
 # 使用这个函数生成文本
 def addText(titlename, text, dest):
